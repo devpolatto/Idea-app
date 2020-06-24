@@ -84,6 +84,28 @@ export const Container = styled.div`
             border-radius: 6px;
             border: none;
         }
+    };
+
+    .navigation {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        button{
+            width: 158px;
+            height: 41px;
+            border-radius: 6px;
+            font-size: 18px;
+        };
+        .btn-back {
+            color: #E5E5E5;
+            background: none;
+            border: 2px solid #E5E5E5;
+        }
+
+        .btn-send {
+            color: #3D54B9;
+            border: none;
+        }
     }
 
 `;

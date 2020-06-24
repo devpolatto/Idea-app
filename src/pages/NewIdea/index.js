@@ -35,8 +35,10 @@ function NewIdea() {
                 <input type="text" />
             </div>
 
-            <button>Voltar</button>
-            <button>enviar</button>
+            <div className="navigation">
+                <button className="btn-back">Voltar</button>
+                <button className="btn-send">Enviar</button>
+            </div>
 
           </form>
       </Container>
