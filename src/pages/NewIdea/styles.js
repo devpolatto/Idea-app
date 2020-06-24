@@ -97,9 +97,15 @@ export const Container = styled.div`
             font-size: 18px;
         };
         .btn-back {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             color: #E5E5E5;
             background: none;
             border: 2px solid #E5E5E5;
+            .react-icons{
+                margin-right: 5px;
+            }
         }
 
         .btn-send {

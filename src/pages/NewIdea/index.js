@@ -2,6 +2,10 @@ import React from 'react';
 
 import { Container } from './styles';
 
+// import { ArrowBack } from '@material-ui/icons';
+
+import { FaArrowLeft } from 'react-icons/fa';
+
 function NewIdea() {
   return (
       <Container>
@@ -36,7 +40,7 @@ function NewIdea() {
             </div>
 
             <div className="navigation">
-                <button className="btn-back">Voltar</button>
+                <button className="btn-back"><FaArrowLeft value={{ className: 'react-icons' }} />Voltar</button>
                 <button className="btn-send">Enviar</button>
             </div>
 
