@@ -90,6 +90,7 @@ export const Container = styled.div`
         display: flex;
         width: 100%;
         justify-content: space-between;
+        margin-top: 20px;
         button{
             width: 158px;
             height: 41px;
@@ -106,12 +107,16 @@ export const Container = styled.div`
             .react-icons{
                 margin-right: 5px;
             }
-        }
+        };
 
         .btn-send {
             color: #3D54B9;
             border: none;
         }
+    };
+
+    .title {
+        margin-bottom: 8px;
     }
 
 `;
