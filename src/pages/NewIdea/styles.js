@@ -100,7 +100,8 @@ export const Container = styled.div`
         .btn-back {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
+            padding: 0 40px;
             color: #E5E5E5;
             background: none;
             border: 2px solid #E5E5E5;
@@ -112,6 +113,10 @@ export const Container = styled.div`
         .btn-send {
             color: #3D54B9;
             border: none;
+        };
+
+        FaArrowLeft {
+            margin-right: 3px;
         }
     };
 

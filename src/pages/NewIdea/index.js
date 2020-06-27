@@ -40,7 +40,10 @@ function NewIdea() {
             </div>
 
             <div className="navigation">
-                <button className="btn-back"><FaArrowLeft value={{ className: 'react-icons' }} />Voltar</button>
+                <button className="btn-back">
+                    <FaArrowLeft />
+                    Voltar
+                </button>
                 <button className="btn-send">Enviar</button>
             </div>
 
