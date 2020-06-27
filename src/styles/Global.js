@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     html, body {
         color: ${props => (props.whiteColor ? 'blue' : 'black')};
         font-family: 'Muli', sans-serif;
+        background: #3D54B9
     }
     
 `
